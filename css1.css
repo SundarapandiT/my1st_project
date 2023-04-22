@@ -1,0 +1,79 @@
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.header
+{
+  border:none;
+  border-radius: 7px;
+  background-color: rgba(206, 233, 118, 0.289);
+  display: flex;
+  /* box-shadow: 1px 3px rgb(34, 179, 68); */
+}
+.header h1
+{
+  padding-left: 10px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+.header b
+{
+  color:rgb(52, 214, 52);
+  font-size: larger;
+  text-shadow: 2px 2px black;
+}
+.header a
+{
+  background-color: rgb(52, 214, 52);
+  color: rgb(0, 0, 0);
+  margin-left: 60%;
+  text-decoration: none;
+  align-self: center;
+  padding: 7px 17px;
+  /* font-weight: 800px; */
+  font-size: .5cm;
+  font-weight: 600px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+.container {
+    border:none;
+    border-radius: 17px;
+    max-width: 27%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+  }
+  h1
+  {
+    font-weight: 800px;
+  }
+
+  form
+  {
+     padding: 20px;
+  }
+  form input
+  {
+    padding: 7px 3em;
+    margin: 7px;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    border-radius: 5px;
+    
+  }
+  button
+  {
+    padding: 7px 70px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(52, 214, 52);
+    color: white;
+    font-weight: 600;
+  }

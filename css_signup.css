@@ -1,0 +1,60 @@
+body
+{
+  font-family:'Courier New', Courier, monospace;
+  background: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.container {
+    border:none;
+    border-radius: 17px;
+    max-width: 27%;
+    margin-left: 35%;
+    margin-top: 2%;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+  }
+  h1
+  {
+    font-weight: 800px;
+  }
+
+  form
+  {
+     padding: 20px;
+  }
+  form input
+  {
+    padding: 7px 3em;
+    margin: 7px;
+    margin-top: 2em;
+    background-color: rgb(217, 217, 217);
+    border: none;
+    border-radius: 5px;
+    
+  }
+  button
+  {
+    padding: 7px 70px;
+    border-radius: 13px;
+    border: none;
+    background-color: rgb(52, 214, 52);
+    color: white;
+    font-weight: 600;
+    margin-top: 2em;
+  }
+  marquee b
+  {
+    color:rgb(52, 214, 52);
+    font-size: larger;
+    text-shadow: 1px 1px black;
+  }
+  marquee 
+  {
+    background-color: rgba(177, 255, 69, 0.8);
+    border: 1px solid green;
+    color: white;
+    text-shadow: 1px 1px black;
+  }
