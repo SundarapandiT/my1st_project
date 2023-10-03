@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA310971"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+
+    android:id="@+id/bmiSemiCircleView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/display"
+    android:layout_centerVertical="true"
+    android:layout_marginTop="74dp"
+        android:background="@drawable/bmimeter"/>
+
+    <TextView
+        android:id="@+id/titlename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:text="BMI Calculator [CSE-III]"
+        android:textColor="#DA1AE8"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlename"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:autofillHints="0.0"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        android:labelFor="@id/weight"
+        android:padding="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="20dp"
+        android:textColor="#F44336"
+        android:textColorHint="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/weight"
+        android:layout_alignParentEnd="true"
+        android:text="kg"
+        android:textColor="#FFFFFF"
+        android:paddingEnd="100dp" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:autofillHints="0.0"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/height"
+        android:inputType="numberDecimal"
+        android:labelFor="@id/height"
+        android:padding="20dp"
+        android:textColor="#F44336"
+        android:textColorHint="#FFFFFF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/height"
+        android:layout_alignParentEnd="true"
+        android:text="cm"
+        android:textColor="#FFFFFF"
+        android:paddingEnd="100dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/height"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:padding="20dp"
+        android:text="Check BMI"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button"
+        android:padding="30dp"
+        android:text=""
+        android:textColor="#FF9800"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F8DF336E"
+        android:padding="15dp"
+        android:text="Make Fit"
+        android:textColor="#FFFFFF"
+        android:enabled="false"
+        android:alpha="0.5"/>
+
+</RelativeLayout>

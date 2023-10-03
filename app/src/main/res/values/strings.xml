@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="textview">BMI Calculator</string>
+    <string name="editview">Weight</string>
+    <string name="bmi_calculator">BMI Calculator</string>
+    <string name="weight">Weight:</string>
+    <string name="height">Height:</string>
+    <string name="button">Button</string>
+    <string name="display">You are %1$s</string>
+    <string name="weightmeter">weightmeter</string>
+</resources>
