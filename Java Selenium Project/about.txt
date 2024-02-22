@@ -1,0 +1,1 @@
+This is Java Selenium Project which is used to perform counting the object on the webpage via chrome. And print the results in java console
