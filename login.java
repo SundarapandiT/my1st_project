@@ -20,8 +20,8 @@ public class login {
   
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginButton.click();
-String expectedurl=driver.getCurrentUrl();
-String actualurl="https://www.linkedin.com/feed/";
+String expectedurl="https://www.linkedin.com/feed/";
+String actualurl=driver.getCurrentUrl();
 if(actualurl.equalsIgnoreCase(expectedurl))
 {
 	System.out.println("test-passed");
