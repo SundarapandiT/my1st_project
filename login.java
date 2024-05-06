@@ -12,11 +12,11 @@ public class login {
 
        
         WebElement emailField = driver.findElement(By.id("username"));
-        emailField.sendKeys("pavithranarul7@gmail.com");
+        emailField.sendKeys("Example7@gmail.com");
 
         
         WebElement passwordField = driver.findElement(By.id("password"));
-        passwordField.sendKeys("pavi3@arul");
+        passwordField.sendKeys("your password");
   
         WebElement loginButton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginButton.click();
