@@ -1,31 +1,33 @@
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <script type="text/javascript">
-      function gcd()
-      {
-        var x,y;
-        x=parseInt(document.myform.n1.value);
-        y=parseInt(document.myform.n2.value);
-        while(x!=y)
-        { if(x>y)
-            x=x-y;
-          else
-            y=y-x;
-        }
-        document.myform.result.value=x;
-      }
-    </script>
-  </head>
-  <body>
-    <h1 align="center"> Program to calculate gcd of two numbers </h1>
-    <hr color="red">
-    <center>
-      Enter two numbers :
-      <form name="myform">
-        Number 1 : <input type="text" name="n1" value=""> <br> <br>
-        Number 2 : <input type="text" name="n2" value=""> <br> <br>
-        <input type="button" value="Get GCD" onClick="gcd()"> <br> <br>
-        GCD is : <input type="text" name="result" value="">
-      </form>
-  </body>
+    <head>
+        <title>GCD</title>
+        <script>
+            function gcd(){
+                var x,y
+                x=parseInt(document.myform.n1.value)
+                y=parseInt(document.myform.n2.value)
+                while(x!=y){
+                    if(x>y) x=x-y
+                    else y=y-x;
+                }
+                document.myform.GCD.value=x
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+            <h1>Calculate GCD of two numbers</h1>
+            <p>Enter two number</p>
+            <form name="myform">
+                Number 1: <input type="number" name="n1" >
+                <br><br>
+                Number 2: <input type="number" name="n2" >
+                <br><br>
+                <input type="button" onClick="gcd()" value="Get GCD" >
+                <br><br>
+                GCD: <input type="number" name="GCD" >
+            </form>
+        </center>
+    </body>
 </html>
