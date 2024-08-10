@@ -1,0 +1,1 @@
+The project shows that i build the model to detect the emotions of real-time face 
