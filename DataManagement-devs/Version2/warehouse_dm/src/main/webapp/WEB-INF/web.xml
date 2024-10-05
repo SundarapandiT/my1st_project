@@ -16,4 +16,16 @@
     <url-pattern>/ProductServlet</url-pattern>  <!-- This is the URL pattern to access the servlet -->
 </servlet-mapping>
 
+<!-- Servlet declaration for QRGenerateServlet -->
+    <servlet>
+        <servlet-name>QRGenerateServlet</servlet-name>
+        <servlet-class>QRGenerateServlet</servlet-class>
+    </servlet>
+
+    <!-- URL pattern for the QRGenerateServlet -->
+    <servlet-mapping>
+        <servlet-name>QRGenerateServlet</servlet-name>
+        <url-pattern>/QRGenerateServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
