@@ -1,0 +1,14 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+         version="5.0">
+<servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>ProductServlet</servlet-class>  <!-- No package name needed since it's in the default package -->
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>  <!-- This is the URL pattern to access the servlet -->
+</servlet-mapping>
+
+</web-app>
