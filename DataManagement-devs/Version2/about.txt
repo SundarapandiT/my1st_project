@@ -1,4 +1,0 @@
-Imagine a warehouse manager trying to update stock records. 
-Instead of manually inputting data, they scan the product’s QR code. 
-The system retrieves the product's details (current stock, sales, etc.) 
-and updates it automatically, ensuring accuracy and preventing data loss.
